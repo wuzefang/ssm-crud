@@ -41,7 +41,7 @@
 	<!-- 扫描所有的com.wzf.crud.dao 下的所有dao接口的实现，加入到容器中 -->
 		<property name="basePackage" value="com.wzf.crud.dao"></property>
 	</bean>
-	<!-- ================================================================= -->
+	<!-- ======================test=========================================== -->
 	
 	<!-- ============================配置一个批量的sqlSession================================= -->
 	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
