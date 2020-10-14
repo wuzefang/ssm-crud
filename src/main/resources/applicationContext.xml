@@ -15,7 +15,7 @@
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 	</context:component-scan>
 	
-	<!-- 数据源，事务控制。。。。 -->
+	<!-- 数据源，事务控制。。。。。branch。。 -->
 	<context:property-placeholder location="classpath:JDBC.properties"/>
 	
 	<!-- ==============================数据源配置 ========================-->
